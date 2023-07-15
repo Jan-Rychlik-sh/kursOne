@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klasyczne kontrolki formularzy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Wybierz konfigurację samochodu</header>
+    <main>
+        <article>
+            <form action="succes.php" method="post" enctype="multipart/form-data">
+                
+                <fieldset>
+                    <legend>Nazwa nadwozia</legend>
+                    <p><input type="radio" name="nadwozie" id="nadwozie">Hatchback</p>
+                    <p><input type="radio" name="nadwozie" id="nadwozie">Kabriolet</p>
+                    <p><input type="radio" checked name="nadwozie" id="nadwozie">Kombi</p>
+                </fieldset>
+                <br>
+                <label for="silnik">Rodzaj silnika</label>
+                <select name="silnik" id="silnik">
+                    <option value="w">wysokoprężny</option>
+                    <option value="b" selected>benzynowy</option>
+                    <option value="e">elektryczny</option>
+                    <option value="h">benzynowy</option>
+                </select>
+                <br>
+                <br>
+
+                    <fieldset id="config">
+                        <legend>Wyposarzenie samochodu</legend>
+                        <p><label  for=""><input type="checkbox" name="" id="">Klimatyzacja</label></p>
+                        <p><label  for=""><input type="checkbox" name="" id="">Tylny spojler dachowy</label></p>
+                        <p><label for=""><input type="checkbox" name="" id="">czujniki parkowania</label></p>
+                        <p><label for=""><input type="checkbox" name="" id="">systemy: ESP i ABS</label></p>
+                        <p><label for=""><input type="checkbox" name="" id="">radio z bluetooth</label></p>
+                        <p><label for=""><input type="checkbox" name="" id="">podgrzewane fotele</label></p>
+                        <p><label for=""><input type="checkbox" name="" id="">tapicerka skórzana</label></p>
+                        <p><label for=""><input type="checkbox" name="" id="">refelektor przeciwmigowe</label></p>
+                        <p><label for=""><input type="checkbox" name="" id="">składane lusterka</label></p>
+                        <p><label for=""><input type="checkbox" name="" id="">tempomat</label></p>
+                        <p><label for=""><input type="checkbox" name="" id="">przyciemniane tylne szyby</label></p>
+                        <p><label for=""><input type="checkbox" name="" id="">światła led do jazdy dziennej</label></p>
+
+                    </fieldset>
+
+                    <label for="choinka">Zapach odświerzacza</label>
+                    <select name="choinka" id="choinka" multiple>
+                        <option value="w">truskawkowy</option>
+                        <option value="b">brzoskwiniowy</option>
+                        <option value="e">jabłkowy</option>
+                        <option value="h">pomarańczowy</option>
+                    </select>
+                    <p>
+                        <p><label for="">Imie:  &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Jak masz na imie"></label></p>
+                        <p><label for="">Hasło:  &nbsp;&nbsp;&nbsp;<input type="password" placeholder="Hasło"></label></p>
+                        <p><label for="">Wyszukaj:  &nbsp;&nbsp;&nbsp;<input type="search" placeholder="Wyszukaj"></label></p>
+                    </p>
+                    email:  &nbsp;&nbsp;&nbsp;<input type="email" name="mail" id="mail" placeholder="email"><br> <br>
+                    numer telefonu:  &nbsp;&nbsp;&nbsp;<input type="tel" placeholder="numer telefonu"><br><br>
+                    Data dostawy:  &nbsp;&nbsp;&nbsp;<input type="date" name="date" id="date"><br><br>
+                    Godzina dostawy:  &nbsp;&nbsp;&nbsp;<input type="time" name="date" id="date"><br><br>
+                    <textarea name="textarea" id="textarea" placeholder="komentarz inne uwagi prośby" cols="30" rows="10"></textarea><br><br>
+                    <!-- <input type="file" name="" id="" value="wybierz plik z lincencją"><br><br> -->
+                    <label for="">kolor samochodu:  &nbsp;&nbsp;&nbsp;<input type="color" name="" id=""></label>
+                    <br><br>
+                    <label for="">
+                        <progress min="10" max="100" value="40"></progress>
+                    </label><br><br>
+                    <label for="">
+                        stopien zatankowania samochodu:  &nbsp;&nbsp;&nbsp;<meter min="0" max="100" value="30"></meter>
+                    </label><br><br>
+                    <input type="submit" value="Zamawiam"><br><br><br><br><br><br><br><br><br><br><br>
+                    <input type="reset" value="Wyczyść">
+            </form>
+        </article>
+    </main>
+</body>
+</html>

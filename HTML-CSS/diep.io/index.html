@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diep.io</title>
+  </head>
+  <body><div id="container">
+    
+      <!-- Dane użytkownika -->
+      <div id="user-data">
+        <div id="user">
+          <img
+            id="avatar"
+            src="https://media.rivet.gg/user-avatar/ed7a69bd-d79d-4847-8147-da73f1ef9c0f/image.png"
+          />
+          <span id="username">New player</span>
+        </div>
+        <div id="friends">
+          <img
+            id="friends-icon"
+            src="zdjecia/tlo/friends-icon.png"
+            alt="friends"
+          />
+          <span id="hmf">0 friends online</span>
+        </div>
+        <div id="register">
+          <a id="sign-up" href="#">Register now</a>
+        </div>
+      </div>
+      <!-- Wybieranie regionu i trybu gry -->
+      <div id="game-settings">
+        <div id="modes">
+          <a id="dropdown-link" href="#" onclick="jacascript: return false;">Game mode</a>
+          <ul id="game-mode-option-group">
+            <li id="experimental" class="game-mode-option active">
+              <img
+                class="game-mode-icon"
+                src="zdjecia/game-modes/experimental-icon.png"
+                alt=""
+              />
+              <span class="game-mode-caption">Experimental</span>
+            </li>
+            <li id="two-teams" class="game-mode-option">
+              <img
+                class="game-mode-icon"
+                src="zdjecia/game-modes/two.png"
+                alt=""
+              />
+              <span class="game-mode-caption">Two teams</span>
+            </li>
+            <li id="four-teams" class="game-mode-option">
+              <img
+                class="game-mode-icon"
+                src="zdjecia/game-modes/four.png"
+                alt=""
+              />
+              <span class="game-mode-caption">Four teams</span>
+            </li>
+            <li id="ffa" class="game-mode-option">
+              <img
+                class="game-mode-icon"
+                src="zdjecia/game-modes/one.png"
+                alt=""
+              />
+              <span class="game-mode-caption">Free for all</span>
+            </li>
+          </ul>
+        </div>
+        <div id="servers">
+          <a id="dropdown-link" href="#" onclick="javascript: return false;">Region</a>
+          <!-- <div id="region-option"><img
+            class="country-flag"
+            src="zdjecia/regions/france.png"
+            alt="france"
+          />
+          <span class="country-caption">Paris</span></div> -->
+          <ul id="region-option-group">
+            <li class="region-option active">
+              <img
+                class="country-flag"
+                src="zdjecia/regions/france.png"
+                alt="france"
+              />
+              <span class="country-caption">Paris</span>
+            </li>
+            <li class="region-option">
+              <img
+                class="country-flag"
+                src="zdjecia/regions/england.png"
+                alt="england"
+              />
+              <span class="country-caption">London</span>
+            </li>
+            <li class="region-option">
+              <img
+                class="country-flag"
+                src="zdjecia/regions/poland.png"
+                alt="poland"
+              />
+              <span class="country-caption">Warsaw</span>
+            </li>
+            <li class="region-option">
+              <img
+                class="country-flag"
+                src="zdjecia/regions/germany.png"
+                alt="germany"
+              />
+              <span class="country-caption">Berlin</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Rozpoczęcie rozgrywki -->
+      <div id="play">
+        <header id="main-header">
+          <h1 id="title">
+            <i><u>diep.io</u></i>
+          </h1>
+        </header>
+        <form action="gra.html" method="post">
+          <label for="">
+            <input
+              type="text"
+              name="your-name"
+              id="your-name"
+              placeholder="User-Name"
+            />
+          </label>
+          <button type="submit" id="play">Play</button>
+        </form>
+      </div>
+  </div>
+  </body>
+</html>

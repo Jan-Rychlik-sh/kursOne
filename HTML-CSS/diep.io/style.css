@@ -1,0 +1,209 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-image: url(zdjecia/tlo/tlo.jpg);
+  background-size: cover;
+}
+img{
+  max-width: 50px;
+}
+ul{
+  list-style-type: none;
+  z-index: 3;
+}
+div#container{
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1200px;
+}
+div#user-data{
+  margin-top: 5px;
+  width: 50%;
+}
+div#user-data div#user{
+  margin-right: auto;
+  min-width: 20%;
+  max-width: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+}
+img#avatar{
+  border-radius: 3px;
+}
+div#user-data div#friends{
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-left: 6px;
+  min-width: 20%;
+  max-width: 240px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  background: rgb(3,240,133);
+  background: linear-gradient(0deg, rgba(3,240,133,1) 25%, rgba(0,168,255,1) 100%); 
+}
+div#user-data div#register{
+  min-width: 20%;
+  max-width: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 25px;background: rgb(25,25,25);
+  background: linear-gradient(0deg, rgba(25,25,25,1) 48%, rgba(255,255,255,1) 100%);
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-left: 6px;
+  min-width: 20%;
+  max-width: 240px;
+  width: 100%;
+  height: 50px;
+}
+div#user-data div#register a#sign-up{
+  color: rgb(43, 255, 0);
+  font-weight: bold;
+  text-decoration: none;
+}
+div#game-settings{
+  width: 50%;
+  max-width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+div#game-settings div#modes{
+  margin-top: 5px;
+  width: 50%;
+}
+div#game-settings div#servers{
+  width: 50%;
+}
+div#modes a,div#servers a{
+  display: block;
+  width: 70%;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+div#modes ul#game-mode-option-group{
+  position: relative;
+}
+.game-mode-option{
+  max-width: 200px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 3px;
+}
+li#experimental{
+  background: rgb(255,0,0);
+  background: linear-gradient(114deg, rgba(255,0,0,1) 11%, rgba(215,255,0,1) 18%, rgba(0,255,12,1) 28%, rgba(0,243,255,1) 43%, rgba(0,1,255,1) 59%, rgba(251,0,255,1) 75%, rgba(255,0,0,1) 89%);
+}
+li#two-teams{
+  background-color: rgb(255, 53, 53);
+}
+li#four-teams{
+  background-color: rgb(110, 110, 247);
+}
+li#ffa{
+  background-color: rgb(248, 94, 38);
+}
+div#play{
+  width: 100%;
+}
+div#servers ul .region-option{
+  max-width: 200px;
+  margin-top: 5px;
+  padding: 3px;
+  border-radius: 3px;
+  background-color: rgb(0, 241, 0);
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  display: flex;
+}
+div#region-option{
+  max-width: 200px;
+  margin-top: 5px;
+  padding: 3px;
+  border-radius: 3px;
+  background-color: rgb(0, 241, 0);
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  display: flex;
+}
+li.region-option, li.game-mode-option{
+  display: none !important;
+}
+li.active, li.active{
+  display: flex !important;
+}
+a#dropdown-link:focus ~ ul li, a#dropdown-link:focus ~ ul li{
+  display: flex !important;
+  flex-wrap: nowrap;
+  align-items: center;
+  z-index: 2;
+}
+div#servers ul li span{
+  display: flex;
+  width: 100px;
+  font-weight: bold;
+}
+div#play{
+  text-align: center;
+}
+div#play header{
+  color: white;
+  font-size: 40px;
+}
+div#play input{
+  margin-top: 6px;
+  width: 200px;
+  height: 50px;
+  color: black;
+  border-radius: 3px;
+  border: none;
+}
+div#play button{
+  background-color: rgb(7, 43, 22);
+  border: none;
+  color: white;
+  padding: 16px;
+  border-radius: 3px;
+}
+@media screen and (max-width: 840px) {
+  body{
+    background-image: none;
+    background-color: #555555;
+  }
+  #container{
+    flex-wrap: wrap;
+  }
+  #container>div{
+    width: 100%;
+    height: 200px;
+  }
+  #container>div>div{
+    width: 100%;
+  }
+}

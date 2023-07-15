@@ -1,0 +1,22 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gray;
+    font-size: 20px;
+    color: white;
+}
+h1{
+    color: blue;
+    font-size: 48px;
+}
+a:link{
+    color: rgb(142, 42, 167);
+}
+a:hover{
+    color: white;
+}
+a:visited{
+    color: greenyellow;
+}
+a:visited:hover{
+    color: white;
+}

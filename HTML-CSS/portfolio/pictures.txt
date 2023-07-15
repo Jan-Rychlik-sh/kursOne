@@ -1,0 +1,25 @@
+background-image: url("https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872__340.jpg");
+https://cdn.pixabay.com/photo/2016/10/13/16/26/web-agency-1738168_1280.jpg
+https://cdn.pixabay.com/photo/2016/11/16/11/12/computer-1828603__340.jpg
+https://cdn.pixabay.com/photo/2016/08/20/06/44/e-commerce-1606962__340.png
+https://cdn.pixabay.com/photo/2018/05/18/15/30/webdesign-3411373__340.jpg
+https://cdn.pixabay.com/photo/2015/01/20/14/27/office-605503__340.jpg
+https://cdn.pixabay.com/photo/2016/11/13/04/52/statistic-1820320__340.png
+https://cdn.pixabay.com/photo/2016/08/17/04/43/template-1599667__340.png
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="portfolio basic.css">
+
+<i class="fab fa-html5 fa-3x"></i> html5
+<i class="fab fa-css3 fa-3x"></i> CSS3
+<i class="fab fa-js fa-3x"></i>   JAVASCRIPT
+<i class="fab fa-react fa-3x"></i>  REACT
+<i class="fab fa-angular fa-3x"></i>  ANGRULAR
+<i class="fab fa-bootstrap fa-3x"></i> </p>  bootstrap
+<i class="fab fa-php fa-3x"></i> PHP
+<i class="fab fa-python fa-3x"></i>   PYTHON
+<i class="fab fa-github"> Github</i>   GITHUB
+ <i class="fab fa-linkedin-in"> Linkedin</i>   LINKEDIN
+<i class="fas fa-envelope-square"> Email</i>   Email

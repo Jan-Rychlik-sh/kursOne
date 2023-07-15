@@ -1,0 +1,134 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  height: 100%;
+  background-color: #333333;
+}
+h1 {
+  font-size: 3pc;
+  text-align: center;
+  color: rgb(67, 141, 252);
+}
+div.photo-container {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1060px;
+}
+figcaption {
+  margin-top: 8px;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 1.3rem;
+}
+img {
+  border-radius: 9px;
+  width: 100%;
+}
+img#o1 {
+  transition: all 0.3s;
+}
+img#o1:hover {
+  scale: 0.9;
+}
+img#o2 {
+  transition: 0.3s;
+}
+img#o2:hover {
+  transform: rotate(5deg);
+  scale: 0.93;
+}
+figure.o3 {
+  position: relative;
+}
+figure.o3 ::after {
+  content: "To królik szarpał";
+  color: white;
+  z-index: 1;
+  font-size: 1.4rem;
+  padding: 15px;
+  text-align: center;
+  position: absolute;
+  top: 221px;
+  left: 0px;
+  width: 100%;
+  background-color: #333333;
+  opacity: 0%;
+  transition: 0.3s;
+}
+figure.o3:hover ::after {
+  opacity: 80%;
+}
+figure.o4 {
+  position: relative;
+}
+figure.o4 ::after {
+  content: "Robi wrażenie";
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  font-size: 1.9rem;
+  padding: 15px;
+  text-align: center;
+  position: absolute;
+  border-radius: 7px;
+  height: 26vh;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+  height: 78.5%;
+  background-color: #333333;
+  background-color: rgb(72, 107, 19);
+  opacity: 0%;
+  transition: 0.3s;
+}
+figure.o4:hover ::after {
+  opacity: 80%;
+}
+figure.o5 {
+  overflow: hidden;
+}
+.wor {
+  overflow: hidden;
+  border-radius: 7px;
+}
+img#o5 {
+  overflow: hidden;
+  transition: 0.3s;
+}
+img#o5:hover {
+  scale: 1.2;
+}
+img#o6 {
+  overflow: hidden;
+  transition: 0.3s;
+}
+img#o6:hover {
+  scale: 1.2;
+  transform: rotate(-5deg);
+}
+@media screen and (max-width: 800px) {
+  figure.o3 ::after {
+    top: 80px;
+    background-color: transparent;
+  }
+  figure.o3:hover ::after {
+    background-color: rgba(67, 141, 252, 0);
+    opacity: 100%;
+  }
+  figure.o4 ::after {
+    display: none;
+    background-color: transparent;
+  }
+  figure.o4:hover ::after {
+    background-color: rgba(67, 141, 252, 0);
+    opacity: 100%;
+  }
+}

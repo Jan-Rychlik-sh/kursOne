@@ -1,0 +1,349 @@
+
+body{
+    color: white;
+    background-color: #2F3336;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.title{
+    width: 100%;
+}
+div.title>header{
+    font-size: 400px;
+    color: #cccccc;
+    text-align: center;
+}
+nav.navbar-dark{
+    display: none;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+main.kwaker{
+    max-width: 96%;
+     display: flex;
+     flex-wrap: wrap;
+}
+main.kwaker article{
+    width: 70%;
+}
+main.kwaker aside{
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+div.title>header>h1{
+    font-size: 70px;
+}
+header{
+    color: rgb(95, 166, 233);
+    font-weight: 900;
+    width: 100%;
+    text-transform: uppercase;
+}
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 40px auto;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    background-color: #215f99;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+nav>ul{
+    box-sizing: border-box;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav>ul>li{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    width: 20%;
+    border-left: 1px dotted white;
+}
+
+nav>ul>li:hover{
+    cursor: pointer;
+    color: #063561;
+}
+
+article header h1{
+    width: 100%;
+    text-align: center;
+}
+
+section header h3{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+div#photo-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+figcaption{
+    font-size: 20px;
+    text-align: center;
+}
+article.a1>p{
+    margin: 29px auto;
+    font-size: 18px;
+    text-align: justify;
+    width: 90%;
+}
+
+article.a2{
+    background-color: #19191a;
+    padding: 13px;
+    display: grid;
+}
+
+article.a2>section{
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a3b3c;
+}
+
+
+
+article.a2>section figure{
+    width: 20%;
+}
+
+article.a2>section figure>img{
+    width: 100%;
+}
+
+article.a2>section div.opis{
+    width: 50%;
+    font-size: 20px;
+}
+
+article.a2 section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.small-bar{
+    height: 180px;
+    font-size: 105px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div.kafelek_maly{
+    height: 180px;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    width: 24%;
+}
+a{
+    display: block;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:active{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none; 
+}
+a:focus{
+    color: white;
+    text-decoration: none;
+}
+#yt{
+    background-color: #9e2222;
+    -webkit-background-clip: text;
+}
+#fb{
+    background-color: #4065c5;
+    -webkit-background-clip: text;
+}
+#gh{
+    background-color: #333333;
+    -webkit-background-clip: text;
+}
+#ig{
+    background-image: linear-gradient(#f55b02, #aa00aa);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+footer{
+    background-color: #19191a;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+}
+footer section{
+    display: flex;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    min-height: 60px;
+    max-height: 200px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+h6{
+    margin: 40px auto;
+    width: 80%;
+    font-size: 20px;
+    color: #cccccc;
+    display: block;
+}
+section.wpis{
+    display: flex;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    margin: 40px auto;
+    height: 500px;
+    flex-wrap: wrap;
+    width: 80%;
+    font-size: 20px;
+}
+div.comments{
+    width: 80%;
+    margin: auto;
+}
+div.comments section{
+    font-size: 20px;
+    margin: 40px auto;
+    max-height: 300px;
+}
+div.comments header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 90%;
+}
+div.comments img{
+    display: block;
+    float: left;
+}
+footer section header{
+   width: 100%;
+}
+footer section.kontakt{
+    padding: 36px;
+}
+footer button{
+    padding: 4px !important;
+    width: 60px !important;
+    height: 30px !important;
+}
+footer section p{
+    padding: 20px;
+    text-align: justify;
+}
+footer section.media{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #000000;
+}
+@media screen and (max-width: 900px) {
+    *{
+        height: auto;
+    }
+    footer section:nth-child(2){
+        margin-top: 60px;
+    }
+    nav.navbar-dark{
+        margin: 0 !important;
+        display: block;
+    }
+    main.kwaker aside{
+        display: none;
+    }
+    nav.higth-screen{
+        display: none;
+    }
+    main.kwaker>article{
+        padding: 0;
+        width: 97%;
+    }
+    main.kwaker>article section{
+        height: auto;
+        width: 97%;
+        margin: 7px auto;
+    }
+    main article figure{
+        max-width: 100%;
+    }
+    main article img{
+        width: 100%;
+    }
+    div.comments section{
+        overflow: scroll;
+    }
+    footer section.media{
+        overflow: hidden;
+    }
+    div.title header h1{
+        font-size: 42px;
+        margin-top: 67px;
+    }
+    article.a2 section div.opis{
+        width: 98%;
+        margin: auto;
+    }
+    figure{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    figure.obraz-wpis{
+        display: none;
+    }
+}

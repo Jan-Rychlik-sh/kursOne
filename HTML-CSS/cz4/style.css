@@ -1,0 +1,141 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+body{
+    background: #555555;
+    overflow-x: hidden;
+}
+div.logo{ 
+    z-index: 54;
+    border-radius: 7px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+div.menu{
+    position: sticky;
+    top: 0;
+    border-radius: 7px;
+    margin: 29px auto;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: #222222;
+    color: #dddddd;
+}
+div.menu>ul{
+    font-size: 1.4rem;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+div.menu>ul>li{
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+}
+div.menu>ul>li:hover{
+    cursor: pointer;
+    background-color: black;
+}
+div.topbar{
+    border-radius: 7px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(59, 143, 115)
+}
+div.topbar>div.leftbar{
+    padding: 7px;
+    width: 13%;
+    border-right: 2px dotted white;
+}
+div.topbar>div.rightbar{
+    width: 80%;
+}
+nav.navbar{
+    display: none;
+}
+main{
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+main>div.sidebar{
+    border-radius: 7px;
+    margin: 0 11px 0 0 ;
+    background-color: #cccccc;
+    padding: 10px 50px 0px 0px;
+    border-right: 2px dotted #222222;
+}
+main menu {
+    font-size: 1.1rem;
+    list-style-type: none;
+}
+main menu li {
+    width: 120%;
+    margin: 10px 0;
+    border-bottom: 2px dotted #222222;
+    padding: 13px;
+}
+main menu li:hover{
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #dddddd;
+}
+h2{
+    font-family: sans-serif;
+    margin: 2px;
+    font-size: 3.7rem;
+}
+main>div.content{
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #dddddd;
+}
+article{
+    font-size: 1.2rem;
+    padding: 20px;
+}
+div.footer{
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.1rem;
+}
+@media screen and (max-width: 766px) {
+    div.logo{
+        margin-top: 60px;
+    }
+    div.sidebar{
+        display: none;
+    }
+    span.kwa{
+        display: none;
+    }
+    div.leftbar{
+        display: none;
+    }
+    h2{
+        font-size: 1.6rem;
+    }
+    article{
+        font-size: 1rem;
+    }
+    div.menu{
+        display: none;
+    }
+    nav.navbar{
+        display: block;
+    }
+}
