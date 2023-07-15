@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #222222;
+  font-size: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  height: 549px;
+  width: 680px;
+  margin: auto;
+}
+.span-boss {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+span:hover {
+  cursor: pointer;
+}
+img {
+  border: 40px ridge rgb(59, 59, 65);
+  display: block;
+  margin-top: 10px;
+  animation-name: slideColor;
+  animation-duration: 5s;
+  width: 100%;
+  max-width: 700px;
+}
+@keyframes slideColor {
+  from {
+    filter: sepia(0%);
+  }
+  to {
+    filter: sepia(100%);
+  }
+}

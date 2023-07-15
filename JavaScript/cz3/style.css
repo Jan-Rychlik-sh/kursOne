@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: lightgray;
+  font-family: monospace;
+  height: 100vh;
+  font-size: 30px;
+}
+
+#container {
+  max-width: 1400px;
+  width: 100%;
+  min-height: 800px;
+  /* background-color: blueviolet; */
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+#plansza {
+  /* background-color: rgb(75, 25, 224); */
+  min-width: 90%;
+  min-height: 100px;
+  margin: 50px auto;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#szubienica {
+  margin: auto;
+  width: 50%;
+  min-height: 480px;
+  max-width: 500px;
+  /* background-color: chartreuse; */
+}
+
+img {
+  width: 100%;
+}
+
+#alfabet {
+  margin: auto;
+  width: 50%;
+  min-height: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  /* background-color: rgb(255, 0, 115); */
+  align-content: start;
+}
+
+.litery {
+  border: 3px solid gray;
+  width: 9%;
+  font-size: 40px;
+  height: 40px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.litery:hover {
+  background-color: #222;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+
+span {
+  margin: 50px auto;
+  font-size: 50px;
+}
+
+span.win {
+  color: #0c0;
+}
+
+span.lose {
+  color: #c00;
+}
+
+span:hover {
+  color: yellow;
+  cursor: pointer;
+}
