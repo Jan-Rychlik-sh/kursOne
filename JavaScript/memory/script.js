@@ -173,7 +173,7 @@ function restore2Cards(visibleNR, nr) {
   lock = false;
 }
 
-let seconds = 60;
+let seconds = 50;
 let timer;
 function time() {
   if (seconds <= 0) {
