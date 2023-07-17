@@ -82,12 +82,11 @@ for (let i = 1; i < cards.length; i++) {
   los[i] = los[i - 1] + 1;
   if (los[i] >= cards.length) los[i] = 0;
 }
-console.log(los);
+
 let NewCards = new Array(cards.length);
 for (let i = 0; i < cards.length; i++) {
   NewCards[i] = cards[los[i]];
 }
-console.log(NewCards);
 
 let cardWrapper = document.getElementById("cardBoss");
 for (let i = 0; i < cards.length; i++) {
@@ -121,8 +120,6 @@ function checkCard(nr) {
       lock = false;
     } else {
       lock = true;
-      console.log(visibleNR);
-      console.log(nr);
       if (NewCards[visibleNR] == NewCards[nr] && visibleNR != nr) {
         //   alert("para");
         setTimeout(function () {
